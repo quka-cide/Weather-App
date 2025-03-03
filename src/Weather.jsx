@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 function Weather() {
     const [location, setLocation] = useState("London");
     const [weather, setWeather] = useState(null);
-    const [units, setUnits] = useState("matric");
+    const [units, setUnits] = useState("metric");
 
     useEffect(() => {
         fetchWeather();
